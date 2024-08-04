@@ -41,7 +41,7 @@ const PlayerContextProvider = (props)=>{
      }
      const previous =async ()=>{
         if(track.id>0){
-            await setTrack(songData[track.id-1])
+            await setTrack(songsData[track.id-1])
             await audioRef.current.play();
             setPlayStatus(true);
 
@@ -50,7 +50,7 @@ const PlayerContextProvider = (props)=>{
      const next = async ()=>{
         if(track.id< songsData.length-1)
         {
-            await setTrack(songData[track.id+1])
+            await setTrack(songsData[track.id+1])
             await audioRef.current.play();
             setPlayStatus(true);
 

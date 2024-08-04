@@ -28,6 +28,7 @@ const Player = () => {
             className="w-4 cursor-pointer" 
             src={playStatus ? assets.pause_icon : assets.play_icon} 
             alt={playStatus ? "Pause" : "Play"} 
+            aria-label={playStatus ? "Pause" : "Play"}
           />
                         <img onClick={next} className="w-4 cursor-pointer" src={assets.next_icon} alt="" />
                        
