@@ -11,11 +11,19 @@ Currently, two official plugins are available:
 
 # Spotify Clone: React Music Player
 This project is a Spotify-inspired music player built with React and Tailwind CSS.
+
 ** Key features include**:
-Responsive sidebar for navigation
-Functional music player with playback controls
-Album and song listings
-Dedicated album pages
-Song selection and playback functionality
-Real-time display of current time and song duration
-Interactive seekbar for track navigation
+
+-Responsive sidebar for navigation,
+
+-Functional music player with playback controls
+
+-Album and song listings
+
+-Dedicated album pages
+
+-Song selection and playback functionality
+
+-Real-time display of current time and song duration
+
+-Interactive seekbar for track navigation
